@@ -1,0 +1,61 @@
+body{
+    background-color: #2c2c2c;
+}
+
+.cuadrito-amarillo{
+    background-color:  #fbbc04 ;
+    border: 2px solid  #fbbc04 ;
+    border-radius: 2px;
+    display: flex;
+    float: left;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.cuadro-principal {
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    height: 300px;
+}
+
+.cuadrosup{
+
+    background-color:  #666564;
+    display: flex;
+    flex-wrap: wrap;
+      
+}
+
+.cuadrosup p{
+    justify-content: space-around;
+    border: 1rem solid  #2c2c2c;
+    height: 200px;
+    width: 150px;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    color: white;
+    
+
+}
+
+.cuadrosdown{
+    background-color:  #666564;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cuadrosdown p{
+    justify-content: space-around;
+    border: 1rem solid  #2c2c2c;
+    height: 200px;
+    width: 150px;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    color: white;
+}
+
